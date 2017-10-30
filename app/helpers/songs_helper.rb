@@ -1,4 +1,4 @@
 module SongsHelper
-def display_artist
-end
+  def display_artist
+  end
 end
