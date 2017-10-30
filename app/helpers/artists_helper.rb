@@ -1,5 +1,6 @@
 module ArtistsHelper
   def display_artist(artist)
-    if 
+    if artist.name != nil 
+      redirect_to @artist
   end
 end
