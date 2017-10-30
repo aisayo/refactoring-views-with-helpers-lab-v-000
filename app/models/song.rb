@@ -8,6 +8,7 @@ class Song < ActiveRecord::Base
   end
 
   def artist_name=(name)
+    require 'pry'
     artist = Artist.find_or_create_by({:name => name})
     self.artist
     binding.pry
