@@ -11,6 +11,5 @@ class Song < ActiveRecord::Base
     require 'pry'
     artist = Artist.find_or_create_by({:name => name})
     self.artist = artist
-    binding.pry
   end
 end
